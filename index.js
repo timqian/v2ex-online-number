@@ -12,7 +12,7 @@ function myRep() {
 
       if(result) {
         const number = result[1];
-        /*console.log("number", number);*/
+        console.log("number", number);
 
         fs.open('./numbers.csv', 'a', undefined, (err, fd) => {
           if(err) throw err;
@@ -30,4 +30,5 @@ function myRep() {
   }).end();
 }
 
+myRep();
 setInterval(myRep, 5 * 60 * 1000);
