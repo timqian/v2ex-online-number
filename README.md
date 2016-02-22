@@ -1,3 +1,10 @@
-我感觉工作时间好像 v2ex 上人比较多，不知道对不对。。
+## 起因
 
-所以写了个脚本来看看 v2ex 上在线人数随时间的变化。
+偶尔会看下 v2ex 底部的在线人数统计，感觉工作时间 v2ex 上人比较多。。。我有点好奇大家什么时候上v站。
+
+## Thanks [plotly](https://github.com/plotly/plotly.js/)
+
+https://plot.ly/javascript/time-series/
+
+## License
+MIT

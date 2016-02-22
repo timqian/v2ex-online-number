@@ -3,7 +3,10 @@
 var http = require('http');
 var fs = require('fs');
 
-function myRep() {
+/**
+ * request v2ex.com, get online people number and then save to file('./numbers.csv')
+ */
+function myRequest() {
   http.request({host:'www.v2ex.com'}, (res) => {
     res.on('data', (chunk) => {
       const html = `${chunk}`;         // TO BE UNDERSTAND
@@ -30,5 +33,5 @@ function myRep() {
   }).end();
 }
 
-myRep();
-setInterval(myRep, 5 * 60 * 1000);
+myRequest();
+setInterval(myRequest, 5 * 60 * 1000);
