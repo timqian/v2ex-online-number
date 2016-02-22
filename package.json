@@ -1,0 +1,25 @@
+{
+  "name": "v2ex-online-number",
+  "version": "1.0.0",
+  "description": "see v2ex online number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timqian/v2ex-online-number.git"
+  },
+  "keywords": [
+    "v2ex"
+  ],
+  "author": "timqian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timqian/v2ex-online-number/issues"
+  },
+  "homepage": "https://github.com/timqian/v2ex-online-number#readme",
+  "dependencies": {
+    "axios": "^0.9.1"
+  }
+}
