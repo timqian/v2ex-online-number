@@ -20,6 +20,5 @@
   },
   "homepage": "https://github.com/timqian/v2ex-online-number#readme",
   "dependencies": {
-    "axios": "^0.9.1"
   }
 }
