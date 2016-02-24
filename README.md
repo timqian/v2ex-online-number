@@ -4,8 +4,15 @@
 
 ## Thanks
 
+- [jquery](https://github.com/jquery/jquery) [jquery-csv](https://github.com/evanplaice/jquery-csv) for fetching and dealing with csv
 - [plotly](https://plot.ly/javascript/time-series/) for drawing graph;
 - [pm2](https://github.com/Unitech/pm2) for keeping scripts running forever
+
+## Files description
+
+`index.js`: request v2ex.com, get online people number and then save to file('./numbers.csv')
+`numbers.csv`: csv file storing data
+`index.html`: web page
 
 ## License
 MIT
