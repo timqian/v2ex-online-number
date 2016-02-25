@@ -20,7 +20,7 @@
       success: function (csvd) {
           data = $.csv.toArrays(csvd);
           data.shift();
-          var timeArray = data.map(dateAndNum => {
+          var timeArray = data.map(function(dateAndNum) {
             var time = new Date(dateAndNum[0]);
             var year = time.getFullYear();
             var month = time.getMonth() + 1;
@@ -32,7 +32,7 @@
             /*console.log(timeForPlotly);*/
             return timeForPlotly;
           });
-          var numArray = data.map(dateAndNum => dateAndNum[1]);
+          var numArray = data.map(function(dateAndNum) {return dateAndNum[1]});
 
           var plotData = [
             {
